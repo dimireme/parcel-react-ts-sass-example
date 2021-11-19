@@ -1,0 +1,24 @@
+{
+  "name": "post-css-less",
+  "version": "1.0.0",
+  "description": "React, ts, parcel and sass exapmle.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir build"
+  },
+  "author": "Alexandr Shadrin",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "@types/webpack-env": "^1.16.3",
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.2"
+  }
+}
